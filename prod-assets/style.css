@@ -132,51 +132,45 @@ a:hover {
   border: none;
   border-radius: 5px;
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.2;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.5rem;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
 }
 .c-btn:hover {
+  color: #FFFFFF;
   text-decoration: none;
 }
-.c-btn__icon {
-  margin-left: 0.5rem;
+.c-btn--primary {
+  background-color: #4F5D6F;
+  color: #FFFFFF;
+}
+.c-btn--primary:hover {
+  background-color: rgb(112.7447368421, 130.6868421053, 153.7552631579);
+  color: #FFFFFF;
 }
 .c-btn--accent {
   background-color: #FFA40B;
   color: #FFFFFF;
 }
 .c-btn--accent:hover {
-  background-color: rgb(189.5, 118.8258196721, 0);
+  background-color: rgb(255, 192.5307377049, 87.5);
   color: #FFFFFF;
 }
 .c-btn--light {
-  background-color: #FFFFFF;
-  color: #444444;
+  background-color: #7487A2;
+  color: #FFFFFF;
 }
 .c-btn--light:hover {
-  background-color: rgb(216.75, 216.75, 216.75);
-  color: #444444;
-}
-.c-btn--outline {
-  background-color: transparent;
-  border: 3px solid #FFFFFF;
+  background-color: rgb(161.8340517241, 174.5689655172, 192.6659482759);
   color: #FFFFFF;
-  line-height: 1;
-  font-size: 1.875rem;
-  padding: 0.55rem 1rem;
-}
-.c-btn--outline:hover {
-  color: rgb(216.75, 216.75, 216.75);
-  border: 3px solid rgb(216.75, 216.75, 216.75);
 }
 .c-btn--small {
-  border-radius: 3px;
-  font-size: 0.625rem;
-  padding: 0.55rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  padding: 0.5rem 0.85rem;
 }
 
 .c-heading {

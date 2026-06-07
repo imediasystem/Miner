@@ -200,33 +200,24 @@ a:hover {
   color: #FFFFFF;
 }
 
-.c-nav {
-  margin-bottom: 20px;
-}
-@media (min-width: 1200px) {
-  .c-nav {
-    margin-bottom: 0;
-  }
-}
 .c-nav__item {
-  color: #444444;
   display: block;
-  font-size: 1rem;
-  font-weight: bold;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  font-size: 0.875rem;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
 }
 .c-nav__item:hover {
-  color: #444444;
+  color: #4F5D6F;
 }
 @media (min-width: 1200px) {
   .c-nav__item {
     display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
     width: auto;
-    margin-right: 40px;
   }
 }
 

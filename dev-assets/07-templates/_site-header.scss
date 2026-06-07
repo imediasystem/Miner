@@ -1,72 +1,48 @@
 .t-site-header {
+    margin-bottom: $grid-base * 2;
+    margin-top: $grid-base * 2;
 
-    &__top {
-        background-color: $white;
-        padding-bottom: $grid-base * 2;
-        
-        @include large-up {
-            padding-bottom: 0;
-        }
-    }
-
-    &__icons {
-        text-align: center;
+    &__menu {
+        margin-top: $grid-base * 2;
 
         @include large-up {
             text-align: right;
+            margin-top: 0;
         }
     }
+    
+    &__nav-button {
 
-    &__icon {
-        display: inline-block;
-        margin-left: $grid-base * 1.5;
-        position: relative;
-    }
-
-    &__number {
-        background-color: $accent;
-        border-radius: 50%;
-        bottom: 0;
-        color: $white;
-        font-weight: bold;
-        font-size: 9px;
-        height: 14px;
-        line-height: 14px;
-        position: absolute;
-        right: -7px;
-        text-align: center;
-        width: 14px;
+        @include large-up {
+            margin-right: 0;
+        }
     }
 
     &__hero {
-        background: $yellow-gradient;
-        color: $gray-very-dark;
-        padding-bottom: $grid-base * 8;
-        padding-top: $grid-base * 8;
-        
-        @include large-up {
-            background: url('../images/header-postac.png') 15% 100% no-repeat, $yellow-gradient;
-            padding-bottom: $grid-base * 18;
-            padding-top: $grid-base * 20;
-
-        }
+        padding-bottom: $grid-base * 7;
+        padding-top: $grid-base * 4;
     }
 
-    &__hero-right {
+    &__hero-image {
+        margin-bottom: $grid-base * 3;
 
-        @include large-up {
-            padding-left: $grid-base * 47.5;
-            padding-right: 0;
+        @include medium-up {
+            margin-bottom: 0;
         }
     }
 
     &__intro-text {
-        font-size: $font-size-3;
-        text-transform: uppercase;
+        color: $primary;
+        font-size: $font-size-4;
+        font-weight: bold;
+        letter-spacing: $letter-spacing-condensed;
     }
 
-    &__cta {
+    &__buttons {
         margin-top: $grid-base * 5;
     }
 
+    &__first-button {
+        margin-right: $grid-base;
+    }
 }

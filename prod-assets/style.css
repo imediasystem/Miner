@@ -680,67 +680,47 @@ a:hover {
   padding-top: 25px;
 }
 
-.t-site-header__top {
-  background-color: #FFFFFF;
-  padding-bottom: 20px;
+.t-site-header {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.t-site-header__menu {
+  margin-top: 20px;
 }
 @media (min-width: 1200px) {
-  .t-site-header__top {
-    padding-bottom: 0;
-  }
-}
-.t-site-header__icons {
-  text-align: center;
-}
-@media (min-width: 1200px) {
-  .t-site-header__icons {
+  .t-site-header__menu {
     text-align: right;
+    margin-top: 0;
   }
 }
-.t-site-header__icon {
-  display: inline-block;
-  margin-left: 15px;
-  position: relative;
-}
-.t-site-header__number {
-  background-color: #FFA40B;
-  border-radius: 50%;
-  bottom: 0;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 9px;
-  height: 14px;
-  line-height: 14px;
-  position: absolute;
-  right: -7px;
-  text-align: center;
-  width: 14px;
+@media (min-width: 1200px) {
+  .t-site-header__nav-button {
+    margin-right: 0;
+  }
 }
 .t-site-header__hero {
-  background: linear-gradient(0deg, #EBCB55 0%, #F8DB7E 100%);
-  color: #444444;
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 70px;
+  padding-top: 40px;
 }
-@media (min-width: 1200px) {
-  .t-site-header__hero {
-    background: url("../images/header-postac.png") 15% 100% no-repeat, linear-gradient(0deg, #EBCB55 0%, #F8DB7E 100%);
-    padding-bottom: 180px;
-    padding-top: 200px;
-  }
+.t-site-header__hero-image {
+  margin-bottom: 30px;
 }
-@media (min-width: 1200px) {
-  .t-site-header__hero-right {
-    padding-left: 475px;
-    padding-right: 0;
+@media (min-width: 800px) {
+  .t-site-header__hero-image {
+    margin-bottom: 0;
   }
 }
 .t-site-header__intro-text {
-  font-size: 1.875rem;
-  text-transform: uppercase;
+  color: #4F5D6F;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.025rem;
 }
-.t-site-header__cta {
+.t-site-header__buttons {
   margin-top: 50px;
+}
+.t-site-header__first-button {
+  margin-right: 10px;
 }
 
 .u-mb-1 {

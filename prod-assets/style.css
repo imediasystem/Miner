@@ -288,6 +288,41 @@ a:hover {
   padding: 0.7rem 1.5rem;
 }
 
+.c-offer {
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: -0.025rem;
+  padding: 0.4rem 0.8rem;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  .c-offer {
+    padding: 0.8rem 1.6rem;
+  }
+}
+.c-offer__arrow {
+  display: none;
+  background-color: #4F5D6F;
+  bottom: 0;
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 65px;
+}
+@media (min-width: 800px) {
+  .c-offer__arrow {
+    display: block;
+  }
+}
+.c-offer__icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .c-pagination__item {
   font-weight: bold;
   margin-left: 5px;

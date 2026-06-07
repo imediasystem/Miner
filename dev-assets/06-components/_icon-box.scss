@@ -2,21 +2,11 @@
     text-align: center;
 
     &__image {
-       margin-bottom: $grid-base * 1.5;
+       margin-bottom: $grid-base * 2;
     }
 
-    &__name {
-        color: $accent;
-        display: block;
-        font-size: $font-size-5;
-        font-weight: bold;
-        line-height: $line-height-sm;
-        text-transform: uppercase;
-    }
-
-    &__info {
-        color: $gray-dark;
-        display: block;
-        font-size: $font-size-7;
+    &__text {
+        font-size: $font-size-8;
+        margin-top: $grid-base;
     }
 }

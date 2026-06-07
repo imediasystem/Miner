@@ -237,20 +237,11 @@ a:hover {
   text-align: center;
 }
 .c-icon-box__image {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
-.c-icon-box__name {
-  color: #FFA40B;
-  display: block;
-  font-size: 1.125rem;
-  font-weight: bold;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-.c-icon-box__info {
-  color: #898989;
-  display: block;
-  font-size: 0.875rem;
+.c-icon-box__text {
+  font-size: 0.75rem;
+  margin-top: 10px;
 }
 
 .c-label {

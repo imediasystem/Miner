@@ -19,9 +19,6 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul li {
-  font-size: 1.125rem;
-}
 
 p {
   color: #898989;
@@ -258,7 +255,17 @@ a:hover {
 }
 
 .c-list__item {
-  margin-bottom: 12px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.c-list__item--compact {
+  margin-bottom: 12.5px;
+}
+.c-list__icon {
+  background: url("../images/angle-right.png") 0 50% no-repeat;
+  display: inline-block;
+  height: 14px;
+  width: 26px;
 }
 .c-list--unstyled {
   list-style-type: none;

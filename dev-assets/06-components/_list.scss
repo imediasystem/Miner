@@ -1,7 +1,19 @@
 .c-list {
 
     &__item {
-        margin-bottom: 12px;        
+        line-height: $line-height-lg;
+        margin-bottom: $grid-base * 2;
+
+        &--compact {
+            margin-bottom: $grid-base * 1.25;
+        }
+    }
+
+    &__icon {
+        background: url('../images/angle-right.png') 0 50% no-repeat;
+        display: inline-block;
+        height: 14px;
+        width: 26px;
     }
 
     &--unstyled {

@@ -1,0 +1,22 @@
+.t-feature {
+    padding-bottom: $grid-base * 3;
+    padding-top: $grid-base * 3;
+    
+    @include medium-up {
+        padding-bottom: $grid-base * 7;
+        padding-top: $grid-base * 7;
+    }
+
+    &__first-col {
+        margin-bottom: $grid-base * 3;
+
+        @include medium-up {
+            margin-bottom: 0;
+        }
+    }
+
+    &__text {
+        margin-bottom: $grid-base * 7;
+        margin-top: $grid-base * 4;
+    }
+}

@@ -434,6 +434,29 @@ a:hover {
   }
 }
 
+.t-feature {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+@media (min-width: 800px) {
+  .t-feature {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+}
+.t-feature__first-col {
+  margin-bottom: 30px;
+}
+@media (min-width: 800px) {
+  .t-feature__first-col {
+    margin-bottom: 0;
+  }
+}
+.t-feature__text {
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
 .t-job-offers__intro {
   padding-bottom: 70px;
   padding-top: 70px;

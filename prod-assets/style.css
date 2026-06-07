@@ -173,11 +173,6 @@ a:hover {
   padding: 0.5rem 0.85rem;
 }
 
-.c-heading {
-  color: #444444;
-  line-height: 1.2;
-  margin-bottom: 5px;
-}
 .c-heading--level1 {
   font-size: 2.69rem;
   letter-spacing: -0.025rem;
@@ -189,10 +184,13 @@ a:hover {
 }
 .c-heading--level2 {
   font-size: 1.875rem;
+  letter-spacing: -0.025rem;
+  margin-bottom: 5px;
 }
 @media (min-width: 1200px) {
   .c-heading--level2 {
     font-size: 2.69rem;
+    line-height: 0.93;
   }
 }
 .c-heading--level3 {

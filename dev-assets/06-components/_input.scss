@@ -1,25 +1,25 @@
 .c-input {
-    background-color: $white;
+    background-color: $primary-light;
     border: none;
     border-radius: $border-radius;
-    font-size: $font-size-5;
-    font-style: italic;
+    color: $white;
+    font-size: $font-size-8;
     font-weight: 700;
-    line-height: $line-height-sm;
-    padding: 1rem 1.25rem;
+    padding: 1rem 2.5rem;
     outline: none;
+    text-transform: uppercase;
 
     &::placeholder {
-        color: $gray-muted;
+        color: $white;
     }
     
     &::-moz-placeholder {
-        color: $gray-muted;
+        color: $white;
         opacity: 1;
     }
 
     &:-ms-placeholder {
-        color: $gray-muted;
+        color: $white;
     }
 
     &--newsletter {

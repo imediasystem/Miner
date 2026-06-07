@@ -272,25 +272,25 @@ a:hover {
 }
 
 .c-input {
-  background-color: #FFFFFF;
+  background-color: #7487A2;
   border: none;
   border-radius: 5px;
-  font-size: 1.125rem;
-  font-style: italic;
+  color: #FFFFFF;
+  font-size: 0.75rem;
   font-weight: 700;
-  line-height: 1.2;
-  padding: 1rem 1.25rem;
+  padding: 1rem 2.5rem;
   outline: none;
+  text-transform: uppercase;
 }
 .c-input::placeholder {
-  color: #D1D1D1;
+  color: #FFFFFF;
 }
 .c-input::-moz-placeholder {
-  color: #D1D1D1;
+  color: #FFFFFF;
   opacity: 1;
 }
 .c-input:-ms-placeholder {
-  color: #D1D1D1;
+  color: #FFFFFF;
 }
 .c-input--newsletter {
   border-radius: 5px 0 0 5px;

@@ -601,7 +601,8 @@ a:hover {
 }
 
 .t-shopper-info {
-  padding-bottom: 70px;
+  background-color: #F8F8F8;
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 .t-shopper-info__item {

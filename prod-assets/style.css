@@ -482,62 +482,51 @@ a:hover {
 }
 
 .t-newsletter {
-  background-color: #F8F8F8;
-  padding-bottom: 45px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 45px;
+  background-color: #4F5D6F;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 @media (min-width: 1200px) {
-  .t-newsletter {
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-}
-.t-newsletter__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-.t-newsletter__info {
-  margin-bottom: 30px;
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .t-newsletter__info {
-    margin-bottom: 0;
-    width: 45%;
-  }
-}
-.t-newsletter__form {
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .t-newsletter__form {
-    width: 55%;
+  .t-newsletter__content {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 .t-newsletter__heading {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .t-newsletter__heading {
+    margin-bottom: 0;
+  }
+}
+.t-newsletter__heading-first {
   display: block;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
-.t-newsletter__subheading {
+.t-newsletter__heading-second {
   display: block;
-  font-size: 0.875rem;
+  font-size: 1.125rem;
+}
+.t-newsletter__form {
+  display: flex;
+  flex-wrap: wrap;
 }
 .t-newsletter__input {
-  width: auto;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 @media (min-width: 800px) {
   .t-newsletter__input {
-    width: 72%;
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-bottom: 0;
   }
-}
-.t-newsletter__submit {
-  border-radius: 0 5px 5px 0;
-  margin-left: -2px;
-  padding: 0.7rem 1.75rem;
 }
 
 .t-post-list {

@@ -20,3 +20,7 @@ Gain a competitive edge and attract top talent with a modern website for your st
 ## 💿 Installation
 Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
 &nbsp;
+
+## 🔗 See also
+Are you interested in? See my other projects and visit my website [iMedia SysteM](https://imediasystem.pl/) ↗️
+&nbsp;

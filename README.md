@@ -1,3 +1,5 @@
+<img width="1893" height="814" alt="Zrzut ekranu 2026-08-12 154015" src="https://github.com/user-attachments/assets/501b827f-b75f-4174-aeec-2fb27dd37ffc" />
+
 ## 🔥 Project Name - MINER
 
 [![View Demo](https://img.shields.io/badge/LIVE_DEMO-Visit_Website-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://imediasystem.github.io/Miner/)
